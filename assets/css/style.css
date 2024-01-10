@@ -1,0 +1,75 @@
+/*Estilo da pag index*/
+.center {
+    text-align: start;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+#t-primeiro {
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    font-style: italic;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: brown;
+    align-items: center;
+}
+
+#t-segundo {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: brown;
+    align-items: center;
+
+}
+
+#t-sub {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: brown;
+    align-items: center;
+    padding: 10px;
+    }
+
+#menu li { 
+    display: inline;
+    padding: 115px;
+    } /*padding é como se fosse um retangulo em volta da palvra e faz
+     com que a palavra tenha distancia nos 4 sentidos, já margin a palavra só cria distacia dos lado*/
+
+     #menu li a{
+        text-decoration: none;     
+        color: black;
+        font-size: 25px;
+     }
+
+     #menu li a:hover /*quando o cursos passar por cima da palavra a cor dele muda */ {
+        color: gray ;
+        
+     }
+
+     .p-30 { /*padding é um seletor global para falar que as letras tem 30 px*/
+        padding: 30px;
+     }
+
+     .br-50 { /*borda da foto*/
+        border-radius: 50%;
+     }
+
+     .wh {
+        width: 1000px;
+        height: 1000px;
+     }
+
