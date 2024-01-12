@@ -55,5 +55,25 @@
         <p class="center">A cantora venceu a categoria Melhor Álbum de Música Popular Brasileira com o disco "Indigo Borboleta Anil" e foi ovacionada durante breve discurso feito em espanhol.</p>
         <p class="center">"Sou uma cantora, compositora, atriz brasileira. Hoje algo histórico acontece na história do meu país. É a primeira vez que uma artista transgênero ganha um Grammy", afirmou Liniker, sem segurar as lágrimas.</p>
         <p class="center">"Muito obrigada a toda minha equipe que esteve comigo desde o começo, sonhando junto comigo. Estou muito feliz", seguiu a cantora, que foi aplaudida de pé.</p>
+   
+        <h4>Ficou alguma dúvida sobre a Liniker? É só entrar em contato</h4>
+   
+        <form action="" method="post">
+            <label for="nome" >Nome:</label>
+            <input id="nome" type="text" name="Nome" onkeyup="ValidaNome()" placeholder="Digite o seu nome" required/>
+            <div id = "txtNome"></div>
+
+            <label for="email" >Email:</label>
+            <input id="email" type="email" name="Email" onkeyup="ValidaEmail()" placeholder="Digite o seu email" required/>
+            <div id = "txtEmail"></div>
+
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" onkeyup="ValidaMsg()" placeholder="Digite a sua mensagem" required></textarea>
+            <div id = "txtMsg"></div>
+
+            <button onclick="submitForm()" type="submit">Submit</button>
+        </form>
+
+        <script src="./assets/js/script.js"></script>
     </body>
 </html>

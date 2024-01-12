@@ -73,3 +73,19 @@
         height: 1000px;
      }
 
+     /* Classe Padrão para todos os Botões */
+.btn {
+    text-align: center;
+    padding: 12px 32px;
+    background: none;
+    border: 1px solid var(--purple-500);
+
+    color: var(--white);
+    border-radius: 10px;
+    font-weight: 700;
+}
+
+.btn:hover{ 
+    background: var(--purple-500);
+}
+
